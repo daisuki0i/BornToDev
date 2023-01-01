@@ -1,5 +1,5 @@
 #1
-print("---Your Score : " , 50+78+89+28,"/100 ---")
+print("---Your Score : " , 50+78+89+28,"/400 ---")
 print("Foundation English :" ,50)
 print("General Business :" ,78)
 print("Introduction to Computer Systems :" ,89)
@@ -8,15 +8,15 @@ print("Computer Programming :" ,28)
 print(" ")
 
 #2
-F = "Foundation English"
-G = "General Business"
-I = "Introduction to Computer Systems"
-C = "Computer Programming"
-print("---Your Score : " , 50+78+89+28,"/100 ---")
-print(F,": " , 50)
-print(G,": " , 78)
-print(I,": " , 89)
-print(F,": " , 28)
+founEng = "Foundation English"
+genBusiness = "General Business"
+introComSys = "Introduction to Computer Systems"
+comPro = "Computer Programming"
+print("---Your Score : " , 50+78+89+28,"/400 ---")
+print(founEng,": " , 50)
+print(genBusiness,": " , 78)
+print(introComSys,": " , 89)
+print(comPro,": " , 28)
 
 print(" ")
 
@@ -25,7 +25,7 @@ f = 50
 g = 78
 i = 89
 c = 28
-print("---Your Score : " , f+g+i+c,"/100 ---")
+print("---Your Score : " , f+g+i+c,"/400 ---")
 print("Foundation English :" , f)
 print("General Business :" , g)
 print("Introduction to Computer Systems :" , i)
