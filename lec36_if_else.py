@@ -16,43 +16,43 @@ HW
     เราจะไปคอนวงอื่น
 '''
 
-# money = 100
-# if money > 300:
-#     print("GO TO KFCCCCC")
-# else:
-#     print("SO SAD T_T")
+money = 100
+if money > 300:
+    print("GO TO KFCCCCC")
+else:
+    print("SO SAD T_T")
 
-# print()
+print()
 
-#username ถูกต้อง
-# usernameInput = input("Username : ")
-# passwordInput= input("Password : ")
-# if usernameInput == "worachisa":
-#     print("DONE")
-# else:
-#     print("ERROR")
+# username ถูกต้อง
+usernameInput = input("Username : ")
+passwordInput= input("Password : ")
+if usernameInput == "worachisa":
+    print("DONE")
+else:
+    print("ERROR")
 
-# print()
+print()
 
-#ถูกทั้งusername and password
-# usernameInput = input("Username : ")
-# passwordInput= input("Password : ")
-# if usernameInput == "worachisa" and passwordInput == "12345678":
-#     print("DONE")
-# else:
-#     print("ERROR")
+# ถูกทั้งusername and password
+usernameInput = input("Username : ")
+passwordInput= input("Password : ")
+if usernameInput == "worachisa" and passwordInput == "12345678":
+    print("DONE")
+else:
+    print("ERROR")
 
-# print()
+print()
 
-#username ถูกต้องแต่ password ไม่ถูก
-# usernameInput = input("Username : ")
-# passwordInput = input("Password : ")
-# if passwordInput == "12345678":
-#     print("DONE")
-# else:
-#     print("ERROR")
+# username ถูกต้องแต่ password ไม่ถูก
+usernameInput = input("Username : ")
+passwordInput = input("Password : ")
+if passwordInput == "12345678":
+    print("DONE")
+else:
+    print("ERROR")
 
-# print()
+print()
 
 '''
 if เงื่อนไข : ถ้าเงื่อนไขเป็นจริงจะทำงานในส่วนของif
@@ -60,26 +60,26 @@ else : ถ้า if ไม่เป็นจริง เงื่อนไข�
 elif : จะทำงานก็ต่อเมื่อเงื่อนไขด้านบนเป็นเท็จ
 '''
 
-# if False:
-#     print("First Condition")
-# elif True:
-#     print("Second Condition")
-# elif False:
-#     print("Third Condition")
-# else:
-#     print("Else Section")
+if False:
+    print("First Condition")
+elif True:
+    print("Second Condition")
+elif False:
+    print("Third Condition")
+else:
+    print("Else Section")
 
-# print()
+print()
 
-# money = int(input())
-# if money > 300:
-#     print("Good")
-# elif True:
-#     print("Saddd")
-# else:
-#     print("error")
+money = int(input())
+if money > 300:
+    print("Good")
+elif True:
+    print("Saddd")
+else:
+    print("error")
 
-# print()
+print()
 
 '''
 ตัวอย่างการตัดสินใจหลากหลายเงื่อนไข
@@ -95,40 +95,39 @@ elif : จะทำงานก็ต่อเมื่อเงื่อนไ�
     น้อยกว่า         50 จะได้เกรด F
 '''
 
-# score = int(input("Add Score(100) : "))
-# if score >= 80:
-#     print("A")
-# elif score >= 75:
-#     print("B+")
-# elif score >= 70:
-#     print("B")
-# elif score >= 65:
-#     print("C+")
-# elif score >= 60:
-#     print("C")
-# elif score >= 55:
-#     print("D+")
-# elif score >= 50:
-#     print("D")
-# else:
-#     print("F")
+score = int(input("Add Score(100) : "))
+if score >= 80:
+    print("A")
+elif score >= 75:
+    print("B+")
+elif score >= 70:
+    print("B")
+elif score >= 65:
+    print("C+")
+elif score >= 60:
+    print("C")
+elif score >= 55:
+    print("D+")
+elif score >= 50:
+    print("D")
+else:
+    print("F")
 
-# print()
-
-
-'''
-การใช้งานเงื่อนไขซ้อนเงื่อนไข (Nested Condition)
-'''
-# if True:
-#     print("Hello Welocome!")
-#     if True:
-#         print("Yo! Ms.A")
-#         if True:
-#             print("so good")
+print()
 
 
+# การใช้งานเงื่อนไขซ้อนเงื่อนไข (Nested Condition)
 
-#ถูกทั้งusername and password
+if True:
+    print("Hello Welocome!")
+    if True:
+        print("Yo! Ms.A")
+        if True:
+            print("so good")
+
+
+
+# ถูกทั้งusername and password
 usernameInput = input("Username : ")
 passwordInput= input("Password : ")
 if usernameInput == "worachisa" and passwordInput == "12345678":

@@ -3,10 +3,10 @@ b = "boonlert"
 print(a+b)
 print(a,b)
 
-#แปลงประเภทขอมูล
+# แปลงประเภทขอมูล
 a = "10"
 b = 5
-c = int(a)+b 
+c = int(a)+b # ใส่ type ข้างหน้าตัวที่ต้องการเปลี่ยน
 print(c)
 
 x = input()
@@ -17,19 +17,19 @@ name = input("first name : ")
 lastName = input("last name : ")
 print("Hello" , name , lastName)
 
-#HW
+# HW
 numOne = int(input("first number : "))
 numTwo = int(input("second number : "))
 sum = numOne + numTwo
 print(sum)
 
-#คำนวณภาษี
+# คำนวณภาษี
 price = 10000
 vat = 7
 result = price+(price*vat/100)
 print(result)
 
-#HW
+# HW
 price = int(input("price : "))
 vat = 7
 result = price + (price * vat/100)

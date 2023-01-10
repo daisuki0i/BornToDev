@@ -1,4 +1,4 @@
-speed = int(input())
-time = int(input())
+speed = int(input("input speed : "))
+time = int(input("input time : "))
 result = speed/time
-print(result , "km/h")
+print(f"{result} km/h")
