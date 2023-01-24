@@ -23,6 +23,7 @@ if usernameInput == "worachisa" and passwordInput == "12345":
 
     userSelected = input("Selected Product : ")
     productAmount = int(input("Amount : "))
+            
     total = 0
 
     print()
@@ -53,6 +54,3 @@ else:
 numbers = [1,2,3,4,5,1,4,5]
 print(sum(numbers))
 '''
-
-
-    
